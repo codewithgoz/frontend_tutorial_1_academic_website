@@ -1,0 +1,317 @@
+/*
+Theme Name: Custom Template for Academic
+Theme URI: https://codewithgoz/academic_website
+Description: Custom design for an imaginary academic
+Version: 1.0
+Author: GustavoGM (Goz)
+*/
+
+:root {
+    --color_1: #0d2d62;
+    --color_2: #890013;
+    --color_3: #e6dfbf;
+    --color_4: #e5e5e5;
+    --color_5: #fff;
+    --color_6: #111;
+    --color_7: #555;
+    --font_1: 'Playfair Display', serif;
+    --font_2: 'Verdana, Geneva, Tahoma', sans-serif;
+}
+
+body {
+    margin-top: 0;
+    font-family: var(--font_2);
+    color: var(--color_6);
+    background-color: var(--color_4);
+}
+
+#wrapper {
+    margin: auto;
+    max-width: 1250px;
+}
+
+
+/**** HEADER SECTION ******/
+/*************************************************************/
+
+header {
+    background-color: var(--color_1);
+    color: var(--color_5);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.contact {
+    padding: 9px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/**** MAIN TITLE SECTION ******/
+/*************************************************************/
+
+#main_title {
+    padding-top: 26px;
+    padding-bottom: 36px;
+    background-color: var(--color_2);
+    color: var(--color_5);
+    text-align: center;
+    font-family: var(--font_1);
+    font-weight: bold;
+    border-bottom: 11px solid var(--color_3);
+}
+
+#name {
+    font-size: 46px;
+}
+
+#job {
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+/**** MAIN CONTENT SECTION ******/
+/*************************************************************/
+
+#main_content {
+    background-color: var(--color_5);
+    display: flex;
+    justify-content: space-around;
+}
+
+/**** NAV CONTENT SECTION ******/
+/*************************************************************/
+
+nav {
+    padding: 20px;
+    flex: 1;
+}
+
+nav ul {
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 8px;
+    background-color: var(--color_4);
+    text-align: center;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    color: var(--color_5);
+}
+
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color_6);
+    display: block;
+}
+
+nav ul li:hover, nav ul li:hover a {
+    background-color: var(--color_2);
+    color: var(--color_5);
+}
+
+#university {
+    background-color: var(--color_1);
+    border-bottom: 11px solid var(--color_3);
+    margin-top: 19px;
+}
+
+#university_name {
+    font-family: var(--font_1);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#university_slogan {
+    font-size: 14px;
+}
+
+.responsive_60 {
+    width: 60%;
+    height: auto;
+}
+
+/**** CONTENT SECTION ******/
+/*************************************************************/
+
+#content {
+    padding: 20px;
+    background-color: var(--color_5);
+    flex: 5;
+    font-size: 16px;
+}
+
+/**** ABOUT SECTION ******/
+/*************************************************************/
+
+#about {
+    background-color: var(--color_5);
+    display: flex;
+    justify-content: space-around;
+}
+
+#presentation {
+    flex:3;
+    padding: 20px;
+    padding-left: 0px;
+    text-align: justify;
+}
+
+.title {
+    font-family: var(--font_1);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#phrase {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+#handsome {
+    flex:1;
+}
+
+.responsive_100 {
+    width: 100%;
+    height: auto;
+}
+
+/**** ACADEMIC INFO SECTION ******/
+/*************************************************************/
+
+#academic_info {
+    background-color: var(--color_3);
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex:1;
+    padding: 24px;
+}
+
+.column ul {
+  margin-top: 18px;
+}
+
+.column ul li {
+    margin-bottom: 18px;
+}
+
+/**** ACHIEVMENTS SECTION ******/
+/*************************************************************/
+
+#achievments {
+    margin-top: 18px;
+    background-color: var(--color_4);
+    display: flex;
+    justify-content: space-around;
+}
+
+/**** FOOTER SECTION ******/
+/*************************************************************/
+
+footer {
+    background-color: var(--color_1);
+    padding-top: 16px;
+    padding-bottom: 18px;
+    color: var(--color_5);
+    display: flex;
+}
+
+.responsive_50 {
+    width: 50%;
+    height: auto;
+}
+
+.footer_column {
+    flex: 1;
+    padding: 15px;
+    font-size: 26px;
+    text-align: center;
+    border-right: 1px solid var(--color_7);
+}
+
+.footer_column a {
+    color: var(--color_5);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer_column a:hover {
+    color: var(--color_3);
+}
+
+.footer_text_1 {
+    font-size: 14px;
+}
+
+/**** FOOTER EXTRA SECTION ******/
+/*************************************************************/
+
+#footer_extra {
+    width: 100%;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 66px;
+}
+
+#footer_extra a {
+    color: var(--color_6);
+}
+
+/**** RESPONSIVE ******/
+/*************************************************************/
+
+@media (max-width: 769px) {
+    header {
+        flex-direction: column;
+        padding: 5px;
+    }
+    #main_content {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+    #university {
+        display: none;
+    }
+    #content {
+      padding-top: 0px;
+    }
+    #about {
+        flex-direction: column-reverse;
+    }
+    #presentation {
+        padding-left: 20px;
+    }
+    #phrase {
+        font-size: 28px;
+    }
+    #academic_info {
+        flex-direction: column;
+    }
+    #achievments {
+        flex-direction: column;
+    }
+    footer {
+        text-align: center;
+        flex-direction: column;
+    }
+    #footer_extra {
+        font-size: 15px;
+    }
+}
