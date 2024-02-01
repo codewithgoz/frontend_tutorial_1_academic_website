@@ -1,9 +1,9 @@
 <!-- ABOUT THE PROJECT -->
 # Frontend para Sitio Web Personal de Académico
 
-[![Product Name Screen Shot][product-screenshot]](https://codewithgoz/tutorials/6)
+[![Product Name Screen Shot][product-screenshot]](https://codewithgoz.com/tutorials/6)
 
-<p align="center"><a href="https://codewithgoz/tutorials/6">VER VIDEO</a></p>
+<p align="center"><a href="https://codewithgoz.com/tutorials/6">VER VIDEO</a></p>
 
 <p align="center"><a href="https://codewithgoz.com/academic_website/index.html">VER SITIO ACADÉMICO ONLINE</a></p>
 <p align="center"><a href="https://codewithgoz.com/academic_website2/index.html">VER VARIANTE 2 DE SITIO ACADÉMICO ONLINE</a></p>
